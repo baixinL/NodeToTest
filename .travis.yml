@@ -5,6 +5,10 @@ brancher:
 only:
   - test
   - master
+install:
+  - npm install -g codecov
 script:
   - npm run cover
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - codecov
 
