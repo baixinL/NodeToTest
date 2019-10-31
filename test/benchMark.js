@@ -33,24 +33,4 @@ suite.add('floatInt',()=>{
         console.log('complete Fastest is ' + this.filter('fastest').map('name'));
     })
     .run({ 'async': true });
-// // add tests
-// suite.add('RegExp#test', function() {
-//     /o/.test('Hello World!');
-// })
-//     .add('String#indexOf', function() {
-//         'Hello World!'.indexOf('o') > -1;
-//     })
-//     .add('String#match', function() {
-//         !!'Hello World!'.match(/o/);
-//     })
-// // add listeners
-//     .on('cycle', function(event) {
-//         // eslint-disable-next-line no-console
-//         console.log(String(event.target));
-//     })
-//     .on('complete', function() {//this=>suite
-//         // eslint-disable-next-line no-console
-//         console.log(' Fastest is ' + this.filter('fastest').map('name'));
-//     })
-// // run async
-//     .run({ 'async': true });
+
