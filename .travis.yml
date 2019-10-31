@@ -7,6 +7,7 @@ only:
   - master
 install:
   - npm install -g codecov
+  - npm install -g nyc
 script:
   - npm run cover
   - codecov
