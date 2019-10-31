@@ -1,0 +1,54 @@
+{
+  "name": "nodetotest",
+  "version": "0.0.1",
+  "description": "use nodejs to test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/mocha.js",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "webpack": "webpack",
+    "cover": "nyc _mocha test/mocha.js"
+  },
+  "sideEffects": [
+    "*.less",
+    "*.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baixinL/NodeToTest.git"
+  },
+  "keywords": [
+    "nodejs",
+    "test"
+  ],
+  "author": "baixinL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baixinL/NodeToTest/issues"
+  },
+  "homepage": "https://github.com/baixinL/NodeToTest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "less-loader": "^5.0.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "pre-commit": "^1.2.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "benchmark": "^2.1.4"
+  },
+  "dependencies": {
+
+  }
+}

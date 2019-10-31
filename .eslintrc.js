@@ -1,0 +1,25 @@
+module.exports={
+    "extends":["eslint:recommended"],
+    "rules":{
+      "no-console":["error",{
+          "allow":["warn","error","info"]
+        }],
+        "indent":["error",4],
+        "no-unused-vars":["off"]
+    },
+    "parser":"babel-eslint",
+    "parserOptions":{
+      "ecmaVersion":6,
+      "sourceType":"module",
+      "ecmaFeatures":{"jsx":true,"experimentalObjectRestSpread":true,"modules":true}
+    },
+    "globals":{
+      "window":true
+    },
+    "env":{
+      "node":true,
+      "es6":true,
+      "mocha":true
+    }
+  }
+  
