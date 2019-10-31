@@ -2,3 +2,5 @@
 [![codecov](https://codecov.io/gh/baixinL/building_baixinL/branch/master/graph/badge.svg)](https://codecov.io/gh/baixinL/building_baixinL)
 # NodeToTest
 use nodejs to test
+mocha
+nyc
