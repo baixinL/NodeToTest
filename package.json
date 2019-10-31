@@ -35,7 +35,9 @@
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
+    "benchmark": "^2.1.4",
     "chai": "^4.2.0",
+    "codecov": "^3.6.1",
     "css-loader": "^3.2.0",
     "eslint": "^6.6.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
@@ -45,10 +47,7 @@
     "pre-commit": "^1.2.2",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
-    "benchmark": "^2.1.4"
+    "webpack-cli": "^3.3.9"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
