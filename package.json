@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "fix": "eslint --fix .",
     "webpack": "webpack",
-    "cover": "nyc mocha test/mocha.js"
+    "cover": "nyc _mocha test/mocha.js"
   },
   "sideEffects": [
     "*.less",
